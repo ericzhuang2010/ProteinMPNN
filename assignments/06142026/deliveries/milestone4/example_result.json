@@ -1,0 +1,175 @@
+{
+  "success": true,
+  "pdb_file": "/Users/rzhuang/Documents/VscodeProjects/ProteinMPNN/assignments/06142026/requirements/8EK5.pdb",
+  "designed_chains": [
+    "E"
+  ],
+  "fixed_chains": [
+    "A",
+    "B",
+    "C"
+  ],
+  "model_name": "v_48_020",
+  "sampling_temp": 0.1,
+  "num_sequences": 8,
+  "native_sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAWDSSRGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYTYFLDAFDIWGQGTMVTVSS",
+  "native_score": 1.3742,
+  "sequences": [
+    {
+      "sample": 1,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAYDTSKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.7412,
+      "global_score": 1.4081,
+      "seq_recovery": 0.4167,
+      "temperature": 0.1,
+      "changed_positions": [
+        88,
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 2,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAWDTTKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6462,
+      "global_score": 1.4061,
+      "seq_recovery": 0.4167,
+      "temperature": 0.1,
+      "changed_positions": [
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 3,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAWDTSKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6737,
+      "global_score": 1.3836,
+      "seq_recovery": 0.5,
+      "temperature": 0.1,
+      "changed_positions": [
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 4,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAYDTTKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6824,
+      "global_score": 1.4007,
+      "seq_recovery": 0.3333,
+      "temperature": 0.1,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 5,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAYDTTKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6897,
+      "global_score": 1.3998,
+      "seq_recovery": 0.3333,
+      "temperature": 0.1,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 6,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAFDTTKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6873,
+      "global_score": 1.3929,
+      "seq_recovery": 0.3333,
+      "temperature": 0.1,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 7,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAFDTTKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.7092,
+      "global_score": 1.3966,
+      "seq_recovery": 0.3333,
+      "temperature": 0.1,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    },
+    {
+      "sample": 8,
+      "sequence": "VLTQPPSVSVSPGQTASITCSGDSLGNKYACWYQQKPGQSPVLVIYQDSKRPSGIPERFSGSNSGNTATLTISGTQAMDEADYYCQAWDTSKGYTVVFGTGTKVTVSSXXXXXXXXXXXXXXXXXXXXEVQLLESGGGLVQPGGSLRLSCAASGFTFDSYAMSWVRQAPGKGLEWVSAISGYGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKYSWAIDAFDIWGQGTMVTVSS",
+      "score": 0.6612,
+      "global_score": 1.3914,
+      "seq_recovery": 0.5,
+      "temperature": 0.1,
+      "changed_positions": [
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ]
+    }
+  ],
+  "out_fasta_path": "/Users/rzhuang/Documents/VscodeProjects/ProteinMPNN/assignments/06142026/deliveries/milestone4/mpnn_out/seqs/8EK5.fa",
+  "position_constraint_mode": "design_only",
+  "design_only_positions": {
+    "E": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+    ]
+  }
+}

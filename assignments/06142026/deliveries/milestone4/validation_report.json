@@ -1,0 +1,158 @@
+{
+  "success": true,
+  "chain": "E",
+  "design_only_positions": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232
+  ],
+  "sequence_to_position_mapping": {
+    "WDSSRG": {
+      "proteinmpnn_positions": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "pdb_residues": "E 200-205"
+    },
+    "YTYFLD": {
+      "proteinmpnn_positions": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "pdb_residues": "E 339-344"
+    }
+  },
+  "samples": [
+    {
+      "sample": 1,
+      "changed_positions": [
+        88,
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 2,
+      "changed_positions": [
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 3,
+      "changed_positions": [
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 4,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 5,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 6,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 7,
+      "changed_positions": [
+        88,
+        90,
+        91,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    },
+    {
+      "sample": 8,
+      "changed_positions": [
+        90,
+        92,
+        228,
+        229,
+        230,
+        231
+      ],
+      "outside_allowed_positions": [],
+      "valid": true
+    }
+  ]
+}

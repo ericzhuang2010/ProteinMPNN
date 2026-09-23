@@ -1,0 +1,11 @@
+What we mentioned in the meeting is milestone 4 listed in Aman's document and I have attached the seq that you should run MPNN:
+
+WDSSRG
+YTYFLD
+
+They are both loop region sequences and since I don't know which 10LH pdb file you have so I cannot give you a precise sequence index number. If you can not find the sequence in your 10LH, send back the pdb so I can give you the index number for running MPNN.
+
+Please let me know if you have any questions.
+
+Best,
+Xinya

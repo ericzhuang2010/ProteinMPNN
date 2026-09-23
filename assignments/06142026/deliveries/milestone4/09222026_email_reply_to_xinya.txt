@@ -1,0 +1,35 @@
+Hi Xinya,  
+I located both loop sequences in the supplied 8EK5 structure. The 10LH scFv is chain E. WDSSRG corresponds to ProteinMPNN positions 88–93 (PDB E 200–205), and YTYFLD corresponds to positions 227–232 (PDB E 339–344).  
+I ran ProteinMPNN with chains A, B, and C fixed and only these 12 chain-E positions designable. I generated eight candidates at temperature 0.1 with seed 37. All eight candidates changed residues only within the requested loops. The native constrained score was 1.3742, and the lowest generated score was 0.6462. That candidate changed the loops to WDTTKG and YSWAID. I have attached the output FASTA.  
+Please confirm that these indices and the design-only interpretation are correct before I finalize the wrapper.
+
+
+
+OUT=assignments/06142026/deliveries/milestone4/manual_run
+mkdir -p "$OUT"
+
+python3 helper_scripts/parse_multiple_chains.py \
+  --input_path assignments/06142026/requirements \
+  --output_path "$OUT/parsed_pdbs.jsonl"
+
+python3 helper_scripts/assign_fixed_chains.py \
+  --input_path "$OUT/parsed_pdbs.jsonl" \
+  --output_path "$OUT/assigned_pdbs.jsonl" \
+  --chain_list "E"
+
+python3 helper_scripts/make_fixed_positions_dict.py \
+  --input_path "$OUT/parsed_pdbs.jsonl" \
+  --output_path "$OUT/fixed_pdbs.jsonl" \
+  --chain_list "E" \
+  --position_list "88 89 90 91 92 93 227 228 229 230 231 232" \
+  --specify_non_fixed
+
+python3 protein_mpnn_run.py \
+  --jsonl_path "$OUT/parsed_pdbs.jsonl" \
+  --chain_id_jsonl "$OUT/assigned_pdbs.jsonl" \
+  --fixed_positions_jsonl "$OUT/fixed_pdbs.jsonl" \
+  --out_folder "$OUT/mpnn_out" \
+  --num_seq_per_target 8 \
+  --sampling_temp "0.1" \
+  --seed 37 \
+  --batch_size 1
